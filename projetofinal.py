@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 #mudar o path para o necessário
-path = r"C:\Users\55859\Desktop\7_semestre\MS905\projetofinal\archive_projfinal\Uncleaned_DS_jobs.csv"
+path = "Uncleaned_DS_jobs.csv"
 df = pd.read_csv(path)
 
 # rodar o comando abaixo no terminal, corrigindo o caminho
