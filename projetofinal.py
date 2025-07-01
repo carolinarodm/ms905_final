@@ -210,7 +210,7 @@ with tab1:
         st.write('Neste problema, temos um banco de dados com vagas relacionadas a Ciência de Dados, com diversas informações que vão desde o salário estimado da vaga ao local da sede da empresa.')
         st.write('Pensando em que estratégia uma pessoa da área poderia adotar para escolher um emprego bem pago, realizamos os pré-processamentos descritos no relatório enviado em conjunto a este dashboard e a aplicação de uma Árvore de Decisão para identificar quais características que podemos extrair deste banco de dados são as mais significativas para a determinação da média do salário estimado de uma vaga em Ciência de Dados.')
     with col2:
-        st.image(r"C:\Users\55859\Desktop\7_semestre\MS905\projetofinal\glassdoor.png")
+        st.image("glassdoor.png")
 
 
 with tab2:
@@ -226,7 +226,7 @@ with tab2:
 with tab3:
     st.write('Com as colunas restantes, implementamos Árvores de Decisão, onde podemos variar o parâmetro da profundidade, de forma a achar a mais adequada para o problema. Escolhemos usar a profundidade de 6 camadas, pois foi a que gerou menor erro médio absoluto dos valores de 1 a 10. Como em todo aprendizado de máquinas, o banco original foi dividido em conjunto de treino (80%) e teste (20%).')
     st.write('Uma visualização da Árvore escolhida pode ser vista na seguinte imagem:')
-    st.image(r"C:\Users\55859\Desktop\7_semestre\MS905\projetofinal\arvorefinaldevdd.png")
+    st.image("arvorefinaldevdd.png")
     st.write('Como escolhemos não reescalar as colunas numéricas, podemos mais facilmente identificar quais critérios levaram às decisões da árvore. Além disso, seu erro absoluto médio é dado por MAE = 26,74, ou seja, em média erramos por volta de 27 mil doláres na previsão do salário anual referente a uma dada vaga do conjunto de teste.')
 
 with tab4:
