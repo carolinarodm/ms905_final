@@ -1,9 +1,5 @@
 import numpy as np
 import pandas as pd
-import plotly.graph_objects as go
-from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
-from sklearn.metrics import root_mean_squared_error, r2_score
 import streamlit as st
 import plotly.express as px
 st.set_page_config(layout="wide")
